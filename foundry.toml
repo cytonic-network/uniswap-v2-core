@@ -1,0 +1,7 @@
+[profile.default]
+libs = ["lib"]
+src = "contracts"
+out = "out"
+
+[profile.ci.fuzz]
+runs = 10_000
